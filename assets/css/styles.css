@@ -805,6 +805,17 @@ justify-content: center;
         transition: all 0.4s ease;
     }
 
+  #openMenu.scrolled{
+  display: flex;
+    justify-content: space-between;
+    padding: 10px 2%;
+    background: white;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 90;
+  }
+
 .text h1 {
     font-size: 13px;
 }
