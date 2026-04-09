@@ -802,6 +802,7 @@ justify-content: center;
         width: 100%;
         justify-content: space-between;
         align-items: center;
+        transition: all 0.4s ease;
     }
 
 .text h1 {
