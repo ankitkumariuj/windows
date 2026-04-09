@@ -21,6 +21,8 @@
 body{
     background-color: #E1E4E5;
       font-family: var(--title-font);
+    -webkit-tap-highlight-color: transparent;
+   -webkit-touch-callout: none;
 }
 
 .main{
