@@ -9,6 +9,17 @@ window.addEventListener("scroll", function () {
 });
 
 
+window.addEventListener("scroll", function () {
+  let navbar = document.getElementById("openMenu");
+
+  if (window.scrollY > 150) {
+    navbar.classList.add("scrolled");
+  } else {
+    navbar.classList.remove("scrolled");
+  }
+});
+
+
 // mobile view menu bar
 
 const openBtn = document.getElementById('openMenu');
